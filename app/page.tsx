@@ -1,4 +1,14 @@
 import Image from "next/image";
+export default function Home() {
+  // This unused variable will trigger an ESLint error
+  const deliberateError = "This will fail the pipeline"; 
+
+  return (
+    <main>
+      <h1>Test Page</h1>
+    </main>
+  );
+}
 
 export default function Home() {
   return (
